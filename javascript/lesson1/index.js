@@ -1,20 +1,14 @@
 var person = {
-    name: "John",
-    age: 30,
+    name: "ADU EMMANUEL",
+    age: 22,
     city: "New York",
-    start: function(){
-        console.log("engine has started")
+    fav : "fufu",
+    greet: function(){
+        console.log("sending greatings to all from " + this.name+" have fun at age " +this.age);
     },
     stop: function(){
         console.log("engine is about stoping")
     }
   };
- // console.log(person.stop);
-//console.log(
-    person.gender="male";
-    person.age=56;
-
-    person.start();  
-    person.stop();
-    console.log(person.gender);
-    console.log(person.age);
+ 
+    person.greet();
